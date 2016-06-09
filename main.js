@@ -2,10 +2,13 @@
 
 //make sure it gets put on the page
 
-function iWantTheDate() {
-    //is this working?
 
-    // WHAT AM I DOING WITH MY LIFE
+function getTime(){
+  var time = new Date();
 
-    var cryForHelp = 'hellooooooooo is it me you are looking for?'
+  var hours = time.getHours();
+  var minutes = time.getMinutes();
+  var seconds = time.getSeconds();
+
+  return [hours, minutes, seconds];
 }
