@@ -1,3 +1,9 @@
+#clock {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 10em;
+  font-weight: 800;
+  color: #fff; }
+
 * {
-  background-color: red;
-}
+  background-color: red; }
