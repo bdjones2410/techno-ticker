@@ -33,6 +33,13 @@ var clockPage = {
     var minutes = time.getMinutes();
     var seconds = time.getSeconds();
 
+    minutes = minutes.toString().length > 1 ? minutes :  '0'+minutes;
+
+    if(seconds.toString().length > 1){
+
+    }else {
+      seconds = '0'+seconds;
+    }
     return [hours, minutes, seconds];
   }
 }
